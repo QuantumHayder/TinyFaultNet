@@ -5,7 +5,7 @@ import librosa
 
 def load_audio(path):
     audio, sr = librosa.load(path)
-    return torch.tensor(audio, dtype=torch.float32), sr
+    return torch.from_numpy(audio), sr
 
 
 def create_resampler(orig_sr: int, new_sr: int):
