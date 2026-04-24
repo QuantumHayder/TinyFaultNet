@@ -1,0 +1,10 @@
+# Jupyter
+ipykernel
+# Data Analysis
+pandas
+numpy
+matplotlib
+seaborn
+
+# Audio
+librosa
