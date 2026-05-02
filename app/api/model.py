@@ -21,8 +21,8 @@ MODELS_DIR = Path(__file__).parent.parent
 
 # HuggingFace repo (fallback)
 HF_REPO_ID = os.getenv(
-    "HF_REPO_ID",
-    "your-username/machine-audio-classifier",
+    "QuantumHayder/machine-audio-classifier",
+    "https://huggingface.co/QuantumHayder/machine-audio-classifier",
 )
 
 
