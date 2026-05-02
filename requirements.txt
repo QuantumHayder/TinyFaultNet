@@ -1,10 +1,31 @@
 # Jupyter
 ipykernel
+
 # Data Analysis
 pandas
 numpy
 matplotlib
 seaborn
 
+# machine learning
+scikit-learn
+torch
+TorchCodec
+
 # Audio
 librosa
+torchaudio
+
+# backend
+fastapi
+uvicorn
+joblib
+
+#frontend
+streamlit
+
+#hosting
+huggingface_hub
+
+#extra
+python-multipart
